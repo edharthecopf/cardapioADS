@@ -1,0 +1,27 @@
+<div class="container container-login">
+<!-- Essa div de dentro será a linha principal -->
+    <div class="row border-row">
+      <!-- Coluna Logo -->
+        <div class="col-sm-6">
+          <!-- Imagem Logo -->
+          <img src="assets/logo.png" alt="Imagem Teste" width="250" />
+        </div>
+
+        <!-- Coluna Formulário -->
+        <div class="col-sm-6 col-login">
+          <h4>Acesso ao Sistema</h4>
+          <!-- FORMULÁRIO DE login -->
+          <form class="form-login">
+            <fieldset class="form-group">
+              <input ng-model="usuario.login" type="text" name="" value="" placeholder="Login" class="form-control" />
+              <input ng-model="usuario.senha" type="password" name="" value="" placeholder="Senha" class="form-control" /></fieldset>
+            <fieldset>
+              <button ng-disabled="!usuario.login || !usuario.senha" type="button" name="btnAcessar" class="btn btn-primary btn-block" ng-click="acessarSistema(usuario)">Acessar</button>
+            </fieldset>
+
+          </form>
+        </div>
+
+    </div>
+
+</div>

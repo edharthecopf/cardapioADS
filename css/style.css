@@ -1,0 +1,21 @@
+.container-login{
+  margin-top: 100px;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.form-login {
+  margin-top: 30px;
+}
+
+.border-row {
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.col-login {
+  margin-top: 28
+  px;
+}
